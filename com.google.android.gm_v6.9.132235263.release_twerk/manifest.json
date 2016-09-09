@@ -1,0 +1,81 @@
+{
+	"app": {
+		"background": {
+			"page": "app_main.html"
+		}
+	},
+	"arc_metadata": {
+		"enableAdb": true,
+		"apkList": [
+			"com.google.android.gm_v6.9.132235263.release-58454699_Android-4.0.apk"
+		],
+		"enableExternalDirectory": false,
+		"formFactor": "phone",
+		"name": "com.google.android.gm_v6.9.132235263.release",
+		"orientation": "portrait",
+		"packageName": "com.google.android.gm_v6.9.132235263.release",
+		"useGoogleContactsSyncAdapter": false,
+		"usePlayServices": [
+			"gcm",
+			"plus"
+		],
+		"resize": "reconfigure"
+	},
+	"default_locale": "en",
+	"icons": {
+		"16": "icon.png",
+		"128": "icon.png"
+	},
+	"import": [
+		{
+			"id": "mfaihdlpglflfgpfjcifdjdjcckigekc"
+		}
+	],
+	"manifest_version": 2,
+	"name": "__MSG_extName__",
+	"oauth2": {
+		"client_id": "133701689125-jj0hr4gb0ff4ulsbrn0uk2i4th946d4c.apps.googleusercontent.com",
+		"scopes": []
+	},
+	"offline_enabled": false,
+	"permissions": [
+		"gcm",
+		{
+			"socket": [
+				"tcp-connect",
+				"tcp-listen",
+				"udp-bind",
+				"udp-send-to",
+				"resolve-host"
+			]
+		},
+		"accessibilityFeatures.read",
+		"unlimitedStorage",
+		"notifications",
+		"clipboardRead",
+		{
+			"fileSystem": [
+				"write",
+				"retainEntries",
+				"directory"
+			]
+		},
+		"https://clients2.google.com/",
+		"videoCapture",
+		"clipboardWrite",
+		"identity.email",
+		"alarms",
+		"storage",
+		"identity",
+		"audioCapture"
+	],
+	"requirements": {
+		"3D": {
+			"features": [
+				"webgl"
+			]
+		}
+	},
+	"update_url": "https://localhost",
+	"version": "1337"
+}
